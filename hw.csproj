@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="back.mp3" />
+    <None Remove="faultyoscilloscope.jpg" />
+    <None Remove="motherboard.png" />
+    <None Remove="workingoscilloscope.jpg" />
+    <None Remove="wrong.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="faultyoscilloscope.jpg" />
+    <Resource Include="motherboard.png" />
+    <Resource Include="workingoscilloscope.jpg" />
+    <Content Include="back.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="wrong.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
