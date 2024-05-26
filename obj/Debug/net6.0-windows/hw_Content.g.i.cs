@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("back.mp3")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("wrong.mp3")]
 
 

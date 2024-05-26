@@ -20,4 +20,3 @@ C:\Users\TEMA\source\repos\hw\obj\Debug\net6.0-windows\hw.genruntimeconfig.cache
 C:\Users\TEMA\source\repos\hw\obj\Debug\net6.0-windows\ref\hw.dll
 C:\Users\TEMA\source\repos\hw\bin\Debug\net6.0-windows\wrong.mp3
 C:\Users\TEMA\source\repos\hw\obj\Debug\net6.0-windows\hw_Content.g.cs
-C:\Users\TEMA\source\repos\hw\bin\Debug\net6.0-windows\back.mp3
