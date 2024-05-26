@@ -16,8 +16,8 @@
         <!-- Верхняя панель инструментов -->
         <Grid Grid.Row="0" Background="Gold" Margin="0,0,1047,76" Grid.RowSpan="3">
             <Grid.RowDefinitions>
-                <RowDefinition Height="287*"/>
-                <RowDefinition Height="271*"/>
+                <RowDefinition Height="109*"/>
+                <RowDefinition Height="77*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
@@ -59,7 +59,7 @@
                 <Border BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Stretch"/>
             </Grid>
 
-            <!-- Остальные кнопки -->
+            <!-- Осцилограф -->
             <StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="10,7,19,0" Height="191" Grid.Row="1">
                 <ToggleButton 
                     x:Name="OscilloscopeButton" Content="Осциллограф" Click="TestMethodToggleButton_Click" Width="168" Height="40" Margin="10,0" FontSize="13" Background="Gray"/>
@@ -70,6 +70,10 @@
                 <ToggleButton 
                     x:Name="CpuSocketTesterButton" Content="Тестер сокета ЦПУ" Click="TestMethodToggleButton_Click" Width="170" Height="39" FontSize="13" Background="Gray"/>
             </StackPanel>
+            <Label 
+                Content="Осцилограф" FontSize="24" FontWeight="Bold"
+                    Margin="28,270,36,0"
+                    />
         </Grid>
 
         <!-- Пустое пространство -->

@@ -19,9 +19,6 @@
     <Resource Include="faultyoscilloscope.jpg" />
     <Resource Include="motherboard.png" />
     <Resource Include="workingoscilloscope.jpg" />
-    <Content Include="back.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="wrong.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
